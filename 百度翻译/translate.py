@@ -34,4 +34,5 @@ data = {
 
 res = requests.post(url, headers=headers, data=data).text
 
-open('data.json', 'w', encoding='utf-8').write(res)
+# open('data.json', 'w', encoding='utf-8').write(res)
+print(res)
