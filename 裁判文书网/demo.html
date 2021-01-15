@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html xmlns:diy>
+  <head>
+    <meta charset="utf-8">
+    <title>文书列表</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="Cache-Control" content="public">
+    <meta name="renderer" content="webkit">
+   <!--  <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no"> -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="Keywords" content=""/>
+    <meta name="Description" content="" />
+    
+    <meta http-equiv ="X-XSS-Protection" content ="0" >
+    <meta content="text/html; charset=UTF-8; X-Content-Type-Options=nosniff" http-equiv="Content-Type" />
+    <link type="image/x-icon" rel="icon" href="/website/wenshu/images/favicon.ico" />
+    <link type="image/x-icon" rel="shortcut icon" href="/website/wenshu/images/favicon.ico" />
+    <link rel="stylesheet" href="/website/wenshu/css/common.css" />
+    <link rel="stylesheet" href="/website/common/plugins/layui/css/layui.css"/>
+    <script>
+      /*互联网或法院专网标识(inner:法院内网；outer:互联网)*/
+      $globalNet = "outer";
+      (function(){
+        if(!0){return;}
+        document.createElement("diy");
+        document.createElement("diy:lawyee");
+      })()
+    </script>
+    <script src="/website/common/jquery-1.12.4.min.js"></script>
+    <script src="/website/common/plugins/layui/layui.js"></script>
+    <script src="/website/wenshu/js/version.js"></script>
+    <script>(function($) {"use strict";$.event.special.valuechange = {teardown: function (namespaces) {$(this).unbind('.valuechange');},handler: function (e) {$.event.special.valuechange.triggerChanged($(this));},add: function (obj) {$(this).on('keyup.valuechange cut.valuechange paste.valuechange input.valuechange', obj.selector, $.event.special.valuechange.handler);},triggerChanged: function (element) {var current = element[0].contentEditable === 'true' ? element.html() : element.val() , previous = typeof element.data('previous') === 'undefined' ? element[0].defaultValue : element.data('previous');if (current !== previous) {element.trigger('valuechange', [element.data('previous')]);element.data('previous', current);}}}})(window.jQuery);</script>
+<link rel="stylesheet" href="../css/listText.css" />
+<link rel="stylesheet" href="../js/dist/themes/default/style.min.css" />
+
+<script src="/website/wenshu/js/dist/jstree.min.js"></script>
+<link rel="stylesheet" href="../../common/plugins/font-awesome-4.7.0/css/font-awesome.min.css" />
+
+<link rel="stylesheet" href="../css/index.css" />
+<link rel="stylesheet" href="../css/common.css" />
+
+<script type="text/javascript" src="../js/divscroll.js"></script>
+
+<script type="text/javascript" src="../js/wenshulist1.js"></script>
+<script type="text/javascript" src="../js/strToBinary.js"></script>
+<script type="text/javascript" src="../js/placeholder.js"></script>
+<script src="/website/wenshu/js/common.js"></script>
+
+<style>
+ textarea{
+   	resize:none;
+   }
+  .search-con {
+    margin-top: 0px;
+  }
+  .pageButton.disabled {
+    pointer-events: none;
+    cursor: default;
+  }
+  .jstree-default .jstree-anchor {
+    line-height: 24px;
+    max-width: 192px;
+  }
+  .jstree-anchor, .jstree-anchor:link, .jstree-anchor:visited, .jstree-anchor:hover, .jstree-anchor:active {
+    text-decoration: none;
+    color: #333;
+  }
+  .left_7_3 a {
+    margin-right: 5px;
+  }
+.advenced-search{
+				border: 2px solid #cd3c3f;
+				border-right:0px;
+			}
+			.search-middle{
+				border-top: 2px solid #cd3c3f;
+				border-bottom: 2px solid #cd3c3f;
+				border-top-right-radius: 0px;
+			    border-bottom-right-radius: 0px;
+			    -webkit-border-top-right-radius:0px;
+			    -moz-border-top-right-radius: 0px;
+			    -ms-border-top-right-radius: 0px;
+			    -o-border-top-right-radius: 0px;
+			    -webkit-border-bottom-right-radius:0px;
+			    -moz-border-bottom-right-radius: 0px;
+			    -ms-border-bottom-right-radius: 0px;
+			    -o-border-bottom-right-radius: 0px;
+			    margin-right:0;
+			}
+			.advencedWrapper{
+				top:-2px;
+			}
+			.search-rightBtn{
+				width:95px;
+				background:#cd3c3f;
+				border-radius:0px;
+				font-size:20px;
+				letter-spacing: 7px;
+			}
+</style>
+<script type="text/javascript">
+  //智能提示列表index
+  var liInd = -1;
+
+</script>
+
+    <!--解决ie9以下媒体查询分辨率问题-->
+    <!--[if lt IE 9]>
+<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+<script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+<![endif]-->
+    
+  
+    
+    <script src="/website/wenshu/181217BMTKHNT2W0/index.js"></script>
+    <!-- Gridsum tracking code begin. 国双流量监测探针-->
+    <script type='text/javascript'>
+      if($globalNet=='outer1'){
+        var _gsq = _gsq || [];
+        (function () {
+          var s = document.createElement('script');
+          s.type = 'text/javascript';
+          s.async = true;
+          s.src = (location.protocol == 'https:' ? 'https://ssl.' : 'http://static.') + 'gridsumdissector.com/js/Clients/GWD-002808-030F33/gs.js';
+          var    firstScript = document.getElementsByTagName('script')[0];
+          firstScript.parentNode.insertBefore(s, firstScript);
+        })();
+      }
+      function toPage(url){
+    	  window.location.href=url+"&pageId="+Math.random();
+      }
+      function login(url){
+    		if(navigator.userAgent.indexOf("MSIE")>-1){
+                var referLink = document.createElement('a');
+                referLink.href=url;
+                document.body.appendChild(referLink);
+                referLink.click();
+            }else{
+            	window.location.href=url;
+            }
+      }
+    </script>
+    <!--Gridsum tracking code end. -->
+
+  </head>
+  <body>
+  <div class="main">
+    <!-- <div class="item_table" data-id="3dec8c82614adc710a477b688edb63cb"><diy:lawyee id="_view_1545034746000" var-name="_var_name_1545034746000"><div></div></diy:lawyee></div> -->
+    
+    <div class="haeder">  
+    	<div class="header_box clearfix">    
+	    	<div class="fl date">
+	    		<span id="showDate"></span>
+	    		<!-- <a href="../181029CR4M5A62CH/index.html">
+	    			<img src="../images/list/logo1.png" />
+	    		</a> -->
+	    	</div>   
+	     	<div class="fr header-list">      
+	     		<div class="menu_sub">   
+	     		    <iframe id='tologout' style='display:none' src=''></iframe>     
+	    			<a href="#" onclick="login('../181010CARHS5BS3C/index.html?open=login')" id="loginLi">登录</a>
+					<a href="../181010CARHS5BS3C/index.html?open=reg" id="reg" >注册</a>
+					<a href="../181010CARHS5BS3C/index.html?open=login" onclick="yjjy()"  id="yjjyPop">意见建议</a>                
+	    			<a href="../181029CR4M5A62CH/index.html" id="goHome">返回主站</a>
+	    			<a id="cpwswApp" href="#" onclick="erweima()">APP下载</a>        
+	    			<a href="/website/wenshu/181109AWZA70BFK4/index.html" target="_blank">使用帮助</a>
+	    		</div>
+	    	</div>
+    	</div>
+    	<div class="logo-detail">
+    		<div class="menu">
+	    			<ul class="first_list clearfix">
+		    			<li class="other-list"><a href="../181029CR4M5A62CH/index.html" class="list_a souye"  target="_self">首页</a></li>          
+		    			<li class="other-list"><a onclick="toPage('../181217BMTKHNT2W0/index.html?s8=02')"  class="list_a"  target="_blank">刑事案件</a></li>          
+						<li class="other-list"><a onclick="toPage('../181217BMTKHNT2W0/index.html?s8=03')"  class="list_a" target="_blank">民事案件</a></li>          
+						<li class="other-list"><a onclick="toPage('../181217BMTKHNT2W0/index.html?s8=04')"  class="list_a" target="_blank">行政案件</a></li>          
+						<li class="other-list"><a onclick="toPage('../181217BMTKHNT2W0/index.html?s8=05')"  class="list_a" target="_blank">赔偿案件</a></li>          
+						<li class="other-list"><a onclick="toPage('../181217BMTKHNT2W0/index.html?s8=10')"  class="list_a" target="_blank">执行案件</a></li>          
+						<li class="others"><a href="javascript:;" class="list_a" >其他案件</a>            
+							<ul class="second_list clearfix">              
+								<li><a onclick="toPage('../181217BMTKHNT2W0/index.html?s8=01')" target="_blank">管辖案件</a></li>              
+								<li><a onclick="toPage('../181217BMTKHNT2W0/index.html?s8=06')"  target="_blank">区际司法协助</a></li>              
+								<li><a onclick="toPage('../181217BMTKHNT2W0/index.html?s8=07')"  target="_blank">国际司法协助</a></li>              
+								<li><a onclick="toPage('../181217BMTKHNT2W0/index.html?s8=09')"  target="_blank">非诉保全</a></li>              
+								<li><a onclick="toPage('../181217BMTKHNT2W0/index.html?s8=08')"  target="_blank">司法制裁</a></li>              
+								<li><a onclick="toPage('../181217BMTKHNT2W0/index.html?s8=11')" target="_blank">强制清算与破产</a></li>              
+								<li><a onclick="toPage('../181217BMTKHNT2W0/index.html?s8=99')"  target="_blank">其他</a></li>            
+							</ul>          
+						</li>               
+						<li class='others' id="otherLanguagesLi"><a href="javascript:;" class="list_a otherLanguages">民族语言文书</a>
+							<ul class="second_list clearfix">
+								<li><a href="../1811087NPAYMP0ZC/index.html?lang=Mongolian" target="_blank" style="display: inline-block;width: 100%;text-align: center;line-height: 32px;font-size: 16px;">蒙古语</a></li>              
+								<li><a href="../1811087T48BTG4SW/index.html?lang=tibetan" target="_blank" style="display: inline-block;width: 100%;text-align: center;line-height: 32px;font-size: 16px;">藏语</a></li>              
+								<li><a href="../1811087TASM6FH4H/index.html?lang=uygur" target="_blank" style="display: inline-block;width: 100%;text-align: center;line-height: 32px;font-size: 16px;">维吾尔语</a></li>             
+								<li><a href="../1811087TGWFGC18H/index.html?lang=korean" target="_blank" style="display: inline-block;width: 100%;text-align: center;line-height: 32px;font-size: 16px;">朝鲜语</a></li>             
+								<li><a href="../1811087TS4Y7F5AW/index.html?lang=kazakh" target="_blank" style="display: inline-block;width: 100%;text-align: center;line-height: 32px;font-size: 16px;">哈萨克语</a></li>     
+							</ul>
+						</li>
+	    			</ul>
+	    		</div>
+    	</div>
+    </div> 
+    
+    
+<div class="item_table" data-id="86d9103fca4fb504abae00c4d2026efc"><diy:lawyee id="_view_1545034768000" var-name="_var_name_1545034768000"><div></div></diy:lawyee></div>
+<div class="item_table searchBox" data-id="734b53d7638ce8035aef047352d08a7e" data-desc="高级检索"><diy:lawyee id="_view_1545034775000" var-name="_var_name_1545034775000"><div class="search-con clearfix">
+  <div class="search-wrapper clearfix">
+    <div class="advenced-search"><span></span></div>
+    <div class="search-middle">
+      <input type="text" class="searchKey search-inp" placeholder="输入案由、关键词、法院、当事人、律师" data-val="s21">
+    </div>
+    <div class="search-rightBtn">
+      搜索
+    </div>
+    <div class="helpBtn"><a href="/website/wenshu/181109AWZA70BFK4/index.html" target="_blank"><img src="/website/wenshu/images/list-help.png"/></a></div>
+  </div>
+</div>
+</diy:lawyee></div>
+<div class="listTMain clearfix">
+  <div class="LM_left item_table" data-id="2cc587adffa937b7cdb0bf493df29fcd" data-desc="左边树"><diy:lawyee id="_view_1545094675000" var-name="_var_name_1545094675000"><div></div></diy:lawyee><diy:lawyee id="_view_1545034785000" var-name="_var_name_1545034785000"><div></div></diy:lawyee><diy:lawyee id="_view_1545034788000" var-name="_var_name_1545034788000"><div></div></diy:lawyee><diy:lawyee id="_view_1545095958000" var-name="_var_name_1545095958000"><div></div></diy:lawyee><diy:lawyee id="_view_1545096058000" var-name="_var_name_1545096058000"><div></div></diy:lawyee><diy:lawyee id="_view_1545034782000" var-name="_var_name_1545034782000"><div></div></diy:lawyee><diy:lawyee id="_view_1545095166000" var-name="_var_name_1545095166000"><div></div></diy:lawyee><diy:lawyee id="_view_1545096160000" var-name="_var_name_1545096160000"><div></div></diy:lawyee></div>
+  <div class="LM_right item_table" data-id="1161ebf6927364f0ac69149b6e929f25" data-desc="检索条件"><diy:lawyee id="_view_1545035259000" var-name="_var_name_1545035259000"><div></div></diy:lawyee><diy:lawyee id="_view_1545184311000" var-name="_var_name_1545184311000"><div></div></diy:lawyee></div>
+</div>
+<div class="item_table" data-id="346eb5bd6832d00de1b1e368c4c40aab"><diy:lawyee id="_view_1545034761000" var-name="_var_name_1545034761000"><div></div></diy:lawyee></div>
+
+    </div>
+
+  </body>
+</html>
