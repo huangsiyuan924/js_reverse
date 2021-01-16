@@ -1,0 +1,192 @@
+{
+  "code": 200,
+  "data": {
+    "list": [
+      {
+        "QY_FR_NAME": "廖露云",
+        "QY_REGION": "360500",
+        "QY_NAME": "江西天工水陆工程设计有限公司",
+        "QY_REGION_NAME": "江西省-新余市",
+        "QY_ORG_CODE": "91360500079012847X",
+        "COLLECT_TIME": 1477106416000,
+        "RN": 1,
+        "QY_ID": "1E1E1F181E191C1C1E1E1B191F171A1D171F",
+        "QY_SRC_TYPE": "0",
+        "OLD_CODE": "079012847"
+      },
+      {
+        "QY_FR_NAME": "单俊",
+        "QY_REGION": "360500",
+        "QY_NAME": "江西中余建筑设计研究院有限公司",
+        "QY_REGION_NAME": "江西省-新余市",
+        "QY_ORG_CODE": "91360500159864134W",
+        "COLLECT_TIME": 1477106400000,
+        "RN": 2,
+        "QY_ID": "1E1E1F181E191C1C1E1E1B191F171A1D171C",
+        "QY_SRC_TYPE": "0",
+        "OLD_CODE": "159864134"
+      },
+      {
+        "QY_FR_NAME": "林茂清",
+        "QY_REGION": "420100",
+        "QY_NAME": "武汉茂业建设工程有限公司",
+        "QY_REGION_NAME": "湖北省-武汉市",
+        "QY_ORG_CODE": "91420106074476087K",
+        "COLLECT_TIME": 1477106413000,
+        "RN": 3,
+        "QY_ID": "1E1E1F181E191C1C1E1E1B191F171A1D171D",
+        "QY_SRC_TYPE": "0",
+        "OLD_CODE": "074476087"
+      },
+      {
+        "QY_FR_NAME": "涂明",
+        "QY_REGION": "360100",
+        "QY_NAME": "南昌市水利规划设计院",
+        "QY_REGION_NAME": "江西省-南昌市",
+        "QY_ORG_CODE": "91360100MA35J54Y86",
+        "COLLECT_TIME": 1477106440000,
+        "RN": 4,
+        "QY_ID": "1E1E1F181E191C1C1E1E1B191F171A1D171A",
+        "QY_SRC_TYPE": "0",
+        "OLD_CODE": "491102609"
+      },
+      {
+        "QY_FR_NAME": "郭霖江",
+        "QY_REGION": "410100",
+        "QY_NAME": "河南博维建筑规划设计有限公司",
+        "QY_REGION_NAME": "河南省-郑州市",
+        "QY_ORG_CODE": "914101025651418126",
+        "COLLECT_TIME": 1477106411000,
+        "RN": 5,
+        "QY_ID": "1E1E1F181E191C1C1E1E1B191F171A1D171B",
+        "QY_SRC_TYPE": "0",
+        "OLD_CODE": "565141812"
+      },
+      {
+        "QY_FR_NAME": "顾亚红",
+        "QY_REGION": "440100",
+        "QY_NAME": "广东铂亚信息技术有限公司",
+        "QY_REGION_NAME": "广东省-广州市",
+        "QY_ORG_CODE": "914401017163873948",
+        "COLLECT_TIME": 1477106545000,
+        "RN": 6,
+        "QY_ID": "1E1E1F181E191C1C1E1E1B191F171A1D1718",
+        "QY_SRC_TYPE": "0",
+        "OLD_CODE": "716387394"
+      },
+      {
+        "QY_FR_NAME": "洪锡场",
+        "QY_REGION": "440300",
+        "QY_NAME": "深圳大晟建设集团有限公司",
+        "QY_REGION_NAME": "广东省-深圳市",
+        "QY_ORG_CODE": "91440300564201676L",
+        "COLLECT_TIME": 1477106522000,
+        "RN": 7,
+        "QY_ID": "1E1E1F181E191C1C1E1E1B191F171A1D1716",
+        "QY_SRC_TYPE": "0",
+        "OLD_CODE": "564201676"
+      },
+      {
+        "QY_FR_NAME": "郑莉",
+        "QY_REGION": "440300",
+        "QY_NAME": "深圳市祺盛装饰设计工程有限公司",
+        "QY_REGION_NAME": "广东省-深圳市",
+        "QY_ORG_CODE": "91440300087044558G",
+        "COLLECT_TIME": 1477106425000,
+        "RN": 8,
+        "QY_ID": "1E1E1F181E191C1C1E1E1B191F171A1D1717",
+        "QY_SRC_TYPE": "0",
+        "OLD_CODE": "087044558"
+      },
+      {
+        "QY_FR_NAME": "李胜",
+        "QY_REGION": "440100",
+        "QY_NAME": "广东倍思控制技术有限公司",
+        "QY_REGION_NAME": "广东省-广州市",
+        "QY_ORG_CODE": "91440000735024820F",
+        "COLLECT_TIME": 1477106400000,
+        "RN": 9,
+        "QY_ID": "1E1E1F181E191C1C1E1E1B191F171A1A1E1F",
+        "QY_SRC_TYPE": "0",
+        "OLD_CODE": "735024820"
+      },
+      {
+        "QY_FR_NAME": "张晓聪",
+        "QY_REGION": "440600",
+        "QY_NAME": "广东天元建筑设计有限公司",
+        "QY_REGION_NAME": "广东省-佛山市",
+        "QY_ORG_CODE": "91440606725095377Y",
+        "COLLECT_TIME": 1477106406000,
+        "RN": 10,
+        "QY_ID": "1E1E1F181E191C1C1E1E1B191F171A1A1E1C",
+        "QY_SRC_TYPE": "0",
+        "OLD_CODE": "725095377"
+      },
+      {
+        "QY_FR_NAME": "陈玢",
+        "QY_REGION": "440100",
+        "QY_NAME": "深圳市致道景观设计有限公司",
+        "QY_REGION_NAME": "广东省-广州市",
+        "QY_ORG_CODE": "91440300758618904A",
+        "COLLECT_TIME": 1477106842000,
+        "RN": 11,
+        "QY_ID": "1E1E1F181E191C1C1E1E1B191F171A1A1E1D",
+        "QY_SRC_TYPE": "0",
+        "OLD_CODE": "758618904"
+      },
+      {
+        "QY_FR_NAME": "黄荣辉",
+        "QY_REGION": "440500",
+        "QY_NAME": "汕头市振侨装修工程总公司",
+        "QY_REGION_NAME": "广东省-汕头市",
+        "QY_ORG_CODE": "914405001927423079",
+        "COLLECT_TIME": 1477106439000,
+        "RN": 12,
+        "QY_ID": "1E1E1F181E191C1C1E1E1B191F171A1A1E1A",
+        "QY_SRC_TYPE": "0",
+        "OLD_CODE": "192742307"
+      },
+      {
+        "QY_FR_NAME": "李健",
+        "QY_REGION": "440300",
+        "QY_NAME": "深圳市森磊镒铭设计顾问有限公司",
+        "QY_REGION_NAME": "广东省-深圳市",
+        "QY_ORG_CODE": "914403007663577081",
+        "COLLECT_TIME": 1477106424000,
+        "RN": 13,
+        "QY_ID": "1E1E1F181E191C1C1E1E1B191F171A1A1E1B",
+        "QY_SRC_TYPE": "0",
+        "OLD_CODE": "766357708"
+      },
+      {
+        "QY_FR_NAME": "张玉梅",
+        "QY_REGION": "450100",
+        "QY_NAME": "广西西普工程设计有限公司",
+        "QY_REGION_NAME": "广西壮族自治区-南宁市",
+        "QY_ORG_CODE": "669733898",
+        "COLLECT_TIME": 1477106445000,
+        "RN": 14,
+        "QY_ID": "1E1E1F181E191C1C1E1E1B191F171A1A1E18",
+        "QY_SRC_TYPE": "0",
+        "OLD_CODE": "669733898"
+      },
+      {
+        "QY_FR_NAME": "郑志强",
+        "QY_REGION": "440100",
+        "QY_NAME": "广州市自来水工程有限公司",
+        "QY_REGION_NAME": "广东省-广州市",
+        "QY_ORG_CODE": "91440101190437587Y",
+        "COLLECT_TIME": 1477106420000,
+        "RN": 15,
+        "QY_ID": "1E1E1F181E191C1C1E1E1B191F171A1A1F1E",
+        "QY_SRC_TYPE": "0",
+        "OLD_CODE": "190437587"
+      }
+    ],
+    "pageNum": 0,
+    "pageSize": 15,
+    "total": 502135
+  },
+  "message": "",
+  "success": true
+}
