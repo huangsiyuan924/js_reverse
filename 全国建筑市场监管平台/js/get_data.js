@@ -5,9 +5,8 @@ const bodyParser = require('body-parser');
 const app = express();
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
-app.get('/get_data', function (req, res) {
-    // console.log(req.query["enc_data"])
-    let result = get_data(req.query["enc_data"])
+app.post('/get_data', function (req, res) {
+    let result = get_data(req.body["enc_data"])
     res.json(
         {
             result: result
